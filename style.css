@@ -1,0 +1,17 @@
+/* styles.css */
+
+body {
+    background-color: white;
+    margin-top: 12px;
+}
+
+nav {
+    background-color: #006A4D; /* Navbar color */
+}
+
+
+.border-container {
+    border-color: #006A4D;
+    border-width: 2px;
+    border-radius: 0.5rem;
+}

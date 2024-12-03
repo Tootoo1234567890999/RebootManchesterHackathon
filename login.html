@@ -8,16 +8,17 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="bg-white-800 font-sans leading-normal tracking-normal mt-12">
+<body>
 <header>
-    <nav aria-label="menu nav" class="bg-green-600 pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto fixed w-full z-20 top-0">
+    <nav aria-label="menu nav" class="pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto fixed w-full z-20 top-0">
         <div class="flex flex-wrap items-center">
             <div class="flex flex-shrink md:w-1/3 justify-center md:justify-start text-white">
                 <a href="#" aria-label="Home">
-                    <img src="../RebootManchesterHackathon/images/Logo-removebg-preview.png" alt="LOGO">
-                </a>    
+                    <img src="../RebootManchesterHackathon/images/logo-removebg-preview.png" alt="">
+                </a>
             </div>
         </div>
     </nav>
@@ -25,7 +26,7 @@
 
 <main class="flex justify-center items-center h-screen">
     <div class="w-full max-w-md">
-        <form class="bg-white shadow-md rounded border-green-600 border-2 px-8 pt-6 pb-8 mb-4">
+        <form class="bg-white shadow-md rounded border-container px-8 pt-6 pb-8 mb-4">
             <h2 class="text-gray-800 text-2xl mb-6 text-center">Login</h2>
             <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
@@ -46,12 +47,11 @@
             </div>
             <p>don't have an account yet? <a href="signup.html">sign Up now</a></p>
         </form>
+        
     </div>
 </main>
 
-<footer class="bg-green-600 text-white text-center py-4">
-    <p>Footer content here</p>
-</footer>
+
 
 <script>
     /*Toggle dropdown list*/
